@@ -1,0 +1,35 @@
+{
+    
+  "ValidateUser" :[
+   
+    {
+
+    "username": "fiza098",
+    "password": "p1234567890"
+    
+    },
+
+    {
+      "username": " ",
+      "password": " "
+    }
+  ],
+
+  "AddPatient" :[{
+
+    "FName": " zara ",
+    "LName" : " khan ",
+    "Email": " ",
+    "DOB" : "03/23/2023 "
+  }
+  ],
+  "ProductionUser":[{
+
+    "username": "mrsqa",
+    "password": "123456789ten"
+
+  }]
+
+
+}
+

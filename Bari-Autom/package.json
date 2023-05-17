@@ -1,0 +1,18 @@
+{
+  "name": "bari-autom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/grep": "^3.1.4",
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.12.0",
+    "cypress-recurse": "^1.29.0",
+    "cypress-v10-preserve-cookie": "^1.2.1"
+  }
+}
