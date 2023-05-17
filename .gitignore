@@ -39,7 +39,7 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+#node_modules/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -140,13 +140,13 @@ dist
 /cypress/.cache/
 
 # Node.js dependencies
-/node_modules/
+#/node_modules/
 
 # IDE specific
 .vscode/
 
 # Environment specific
-.env
+#.env
 
 # Miscellaneous
 .DS_Store
