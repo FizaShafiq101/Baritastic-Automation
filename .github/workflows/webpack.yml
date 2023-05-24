@@ -20,7 +20,7 @@ jobs:
       - name: e2e Tests
         uses: cypress-io/github-action@v2
         with:
-          build: npm run start
+          node-version: 16
 
       - name: Build
         run: |
