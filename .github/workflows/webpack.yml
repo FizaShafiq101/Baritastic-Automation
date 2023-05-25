@@ -26,6 +26,6 @@ jobs:
 
       - name: Build
         run: |
-         node_modules/.bin/cypress install,
          npm install,
+         node_modules/.bin/cypress install
          npm run start
