@@ -22,6 +22,8 @@ jobs:
         with:
           build: npm run build
           start: npm start
+      - name: Check working directory
+        run: pwd
 
       - name: Build
         run: |
