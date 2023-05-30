@@ -12,4 +12,4 @@ jobs:
         run: npm install --prefix Bari-Autom
 
       - name: Run Cypress tests
-        run: npm cypress run --project ./Bari-Autom
+        run: npx cypress run --project ./Bari-Autom
