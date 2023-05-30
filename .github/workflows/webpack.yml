@@ -1,15 +1,13 @@
 name: NodeJS with Webpack
 
 on:
-  schedule:
-  - cron: "10 * * * *"
-
+  push
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Install dependencies
-        run: npm install
+        run: npm install --prefix Bari-Autom/package.json
       - name: Run Cypress tests
         run: npx cypress run
