@@ -12,4 +12,4 @@ jobs:
         run: npm install --prefix Bari-Autom
 
       - name: Run Cypress tests
-        run: npx cypress run
+        run: npx cypress run --config-file Bari-Autom/cypress.config.js
